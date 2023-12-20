@@ -11,11 +11,17 @@
 
             Console.WriteLine(someName);
 
-            static void GetName(string name)
-            {
-                Console.WriteLine("Введите ваше имя");
-                name = Console.ReadLine();
-            }
+            //static void GetName(string name)
+            //{
+             //   Console.WriteLine("Введите ваше имя");
+            //    name = Console.ReadLine();
+            //}
         }
+        static void GetName(string name)
+        {
+            Console.WriteLine("Введите ваше имя");
+            name = Console.ReadLine();
+        }
+
     }
 }
