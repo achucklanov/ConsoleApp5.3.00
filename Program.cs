@@ -9,7 +9,7 @@ namespace ConsoleApp5._3._00
             Console.WriteLine("Здравствуй, Мир!");
 
             Console.WriteLine("Здравствуй, Мир!");
-            Console.WriteLine("Здравствуй, Мир!");
+            
 
             var someName = "Евгения";
             Console.WriteLine(someName);
