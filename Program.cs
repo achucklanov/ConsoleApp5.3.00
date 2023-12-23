@@ -12,7 +12,7 @@ namespace ConsoleApp5._3._00
             var someName = "Евгения";
             Console.WriteLine(someName);
 
-            GetName(someName);
+            GetName(ref someName);
 
             Console.WriteLine(someName);
 
@@ -24,10 +24,11 @@ namespace ConsoleApp5._3._00
 
             
         }
-        static void GetName(string name)
+        static string GetName(ref string name)
         {
             Console.WriteLine("Введите ваше имя");
             name = Console.ReadLine();
+            return name;
         }
 
     }
